@@ -1,0 +1,75 @@
+
+.cal{
+    display: flex;
+    justify-content: center;
+
+}
+
+ .keys input{
+    background-image:linear-gradient(to right, rgb(189, 184, 184) , rgb(116, 116, 114));
+    border-radius: 50%;
+    border-color:linear-gradient(to right, rgb(175, 171, 171) , rgb(137, 137, 131)) ;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(83, 85, 83, 0.903);
+    
+}
+.keys input:hover{
+    font-weight: bold;
+}
+.cal{
+    background-color: rgb(209, 208, 208);
+    width: 350px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5%;
+    margin: 10px;
+    padding: 10px;
+
+}
+.keys {
+/* padding: 11px; */
+color: aliceblue;
+font-size: large;
+/* background-image: linear-gradient(to right, red , yellow); */
+text-align: center;
+
+}
+
+/* .keys:hover{
+}
+
+td :hover{
+    font-weight: bold;
+
+} */
+
+
+p{
+    background-color: red;
+}
+
+.screen{
+    font-style: bold;
+    background-color: rgba(211, 212, 211, 0.903);
+    width: 260px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}
+
+
+.button {
+    /* height: 6px; */
+    /* padding: 10px; */
+    /* background-image: linear-gradient(to right, red , yellow); */
+}
+
+/* .clear:hover {
+    background-color: #ab4a4d;
+} */
+
+
+
